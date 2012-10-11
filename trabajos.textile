@@ -1,0 +1,24 @@
+h1. Trabajos con georref
+
+# Bajar archivos de receptores (si hay georref, bajar archivo EP)
+  ## Copìar archivos en Observ (BackUp)
+# Copiar \_plantilla dentro de "Mis proyectos"
+  ## Cambiarle el nombre al mismo que el expediente (NNNN-ApellidoProp)
+  ## Copiar archivos de observaciones en \observ
+# Crear proyecto en GNSS Solutions con mismo nombre
+# POST-PROCESAR
+# Proyectar puntos procesados
+  ## Anotar parámetros de proyección
+# Exportar KML
+# Exportar listado de coordenadas proyectadas con las siguientes columnas
+  @# Nombre, Este (m), Norte (m), Altura Elip. (m)@
+# ejecutar script para obtener archivo DXF con
+  ## capa de nombres de puntos (ej: Puntos_ID)
+  ## capa de puntos (ej: Puntos)
+# CALCULAR MENSURA
+# Armar listado de coordenadas proyectadas de la mensura resuelta con las siguientes columnas
+  @# Nombre, Este (m), Norte (m)[, Altura Elip. (m)]@
+# ejecutar script para obtener (recordar parámetros de proyección):
+  ## archivo DXF con puntos en GK-Faja5, capa 0
+  ## planilla de coordenadas geodésicas PosGAr 2007
+  ## planilla de coordenadas geodésicas en formato -gg.mmsssssss
